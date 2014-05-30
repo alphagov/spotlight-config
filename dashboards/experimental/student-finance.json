@@ -1,5 +1,5 @@
 {
-  "slug": "student-finance",
+  "slug": "experimental/student-finance",
   "page-type": "dashboard",
   "dashboard-type": "transaction",
   "published": false,
