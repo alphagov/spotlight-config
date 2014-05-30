@@ -1,0 +1,20 @@
+{
+  "name": "spotlight-config",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node tools/validate-stubs.js",
+    "generate-services": "node tools/generate-services-list.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argh": "0.1.1",
+    "colors": "0.6.2",
+    "glob": "3.2.9",
+    "graceful-fs": "2.0.3",
+    "jsonschema": "0.4.0",
+    "lodash": "2.4.1",
+    "q": "1.0.1"
+  }
+}
