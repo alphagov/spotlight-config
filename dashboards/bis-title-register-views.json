@@ -7,10 +7,7 @@
   "description": "The property register identifies the geographical location and extent of the registered property by means of a short description (usually the address) and by reference to an official plan which is prepared for each title.",
   "title": "Land Registry: title register views",
   "department": "bis",
-  "agency": {
-    "title": "Land Registry",
-    "abbr": "HMLR"
-  },
+  "agency": "hmlr",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

@@ -7,10 +7,7 @@
   "description": "Requests for vehicle details by their owners.",
   "title": "Vehicle tax: checks made by individuals",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

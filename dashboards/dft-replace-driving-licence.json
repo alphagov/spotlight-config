@@ -7,10 +7,7 @@
   "description": "Applications to replace lost, stolen, damaged or destroyed driving licences.",
   "title": "Driving licences: replacements",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

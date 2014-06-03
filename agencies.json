@@ -1,0 +1,81 @@
+{
+  "companies-house": {
+    "title": "Companies House"
+  },
+  "skills-funding-agency": {
+    "title": "Skills Funding Agency"
+  },
+  "hmlr": {
+    "title": "Land Registry",
+    "abbr": "HMLR"
+  },
+  "ipo": {
+    "title": "Intellectual Property Office",
+    "abbr": "IPO"
+  },
+  "slc": {
+    "title": "Student Loans Company",
+    "abbr": "SLC"
+  },
+  "gds": {
+    "title": "Government Digital Service",
+    "abbr": "GDS"
+  },
+  "rpa": {
+    "title": "Rural Payments Agency",
+    "abbr": "RPA"
+  },
+  "ea": {
+    "title": "Environment Agency",
+    "abbr": "EA"
+  },
+  "dvla": {
+    "title": "Driver and Vehicle Licensing Agency",
+    "abbr": "DVLA"
+  },
+  "dsa": {
+    "title": "Driving Standards Agency",
+    "abbr": "DSA"
+  },
+  "ha": {
+    "title": "Highways Agency",
+    "abbr": "HA"
+  },
+  "nhsbt": {
+    "title": "NHS Blood and Transplant",
+    "abbr": "NHSBT"
+  },
+  "nhs-england": {
+    "title": "NHS England"
+  },
+  "dvsa": {
+    "title": "Driver and Vehicle Standards Agency",
+    "abbr": "DVSA"
+  },
+  "non-realistic-agency": {
+    "title": "Non-Realistic Agency"
+  },
+  "dbs": {
+    "title": "Disclosure and Barring Service",
+    "abbr": "DBS"
+  },
+  "hmpo": {
+    "title": "HM Passport Office",
+    "abbr": "HMPO"
+  },
+  "opg": {
+    "title": "Office of the Public Guardian",
+    "abbr": "OPG"
+  },
+  "hmcts": {
+    "title": "HM Courts & Tribunals Service",
+    "abbr": "HMCTS"
+  },
+  "legal-aid-agency": {
+    "title": "Legal Aid Agency"
+  },
+  "noms": {
+    "title": "National Offender Management Service",
+    "abbr": "NOMS"
+  }
+}

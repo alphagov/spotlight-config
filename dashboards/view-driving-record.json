@@ -7,10 +7,7 @@
   "title": "View driving record",
   "description": "Find out which vehicles you can drive, penalty points and when your licence expires.",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "transaction": {
       "title": "View your driving licence information",

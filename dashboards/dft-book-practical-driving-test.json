@@ -7,10 +7,7 @@
   "description": "Book and pay for a practical driving test.",
   "title": "Practical driving test: bookings",
   "department": "dft",
-  "agency": {
-    "title": "Driving Standards Agency",
-    "abbr": "DSA"
-  },
+  "agency": "dsa",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

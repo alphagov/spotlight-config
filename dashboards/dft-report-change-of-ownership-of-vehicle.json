@@ -7,10 +7,7 @@
   "description": "Telling DVLA that a vehicle has changed owner.",
   "title": "Vehicle registration: changes of ownership",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

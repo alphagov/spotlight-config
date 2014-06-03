@@ -7,10 +7,7 @@
   "title": "Waste carrier registration",
   "description": "Businesses need to register as waste carriers if they transport waste regularly.",
   "department": "defra",
-  "agency": {
-    "title": "Environment Agency",
-    "abbr": "EA"
-  },
+  "agency": "ea",
   "relatedPages": {
     "transaction": {
       "title": "Register as a waste carrier, broker or dealer (England and Wales)",

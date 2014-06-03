@@ -7,10 +7,7 @@
   "description": "Applications for a new, renewed, replacement, updated or extended passport.",
   "title": "Passport applications",
   "department": "home-office",
-  "agency": {
-    "title": "HM Passport Office",
-    "abbr": "HMPO"
-  },
+  "agency": "hmpo",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

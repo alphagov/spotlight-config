@@ -7,10 +7,7 @@
   "description": "Changes of address or other details on a driving licence.",
   "title": "Driving licences: changes",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

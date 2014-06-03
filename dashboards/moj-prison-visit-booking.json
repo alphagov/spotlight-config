@@ -7,10 +7,7 @@
   "description": "Arrange meetings between prisoners and social visitors or legal professionals.",
   "title": "Prison visit booking",
   "department": "moj",
-  "agency": {
-    "title": "National Offender Management Service",
-    "abbr": "NOMS"
-  },
+  "agency": "noms",
   "relatedPages": {
     "improve-dashboard-message": true
   },

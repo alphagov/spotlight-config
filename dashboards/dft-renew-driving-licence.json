@@ -7,10 +7,7 @@
   "description": "Driving licence renewals.",
   "title": "Driving licences: renewals",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {
