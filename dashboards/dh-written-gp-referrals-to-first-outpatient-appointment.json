@@ -6,18 +6,15 @@
   "strapline": "Dashboard",
   "description": "Written referrals from General Practitioners (GPs) for outpatients' first doctor's or dentist's appointments.",
   "title": "Written GP referrals to first outpatient appointment",
-  "department": {
-    "title": "Department of Health",
-    "abbr": "DH"
-  },
+  "department": "dh",
   "agency": {
     "title": "NHS England"
   },
   "relatedPages": {
     "improve-dashboard-message": true
   },
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",

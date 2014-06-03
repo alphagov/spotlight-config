@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Providing UK students with funding, making sure they maintain their account and repay loans.",
   "title": "Student finance: applications for full-time study",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Student Loans Company",
     "abbr": "SLC"
@@ -22,8 +19,8 @@
     }
   },
   "description-extra": "The service is provided by different organisations for each country in the UK:<br>\n- England – the Student Loans Company<br>\n- Scotland – Student Awards Agency for Scotland<br>\n- Wales and Northern Ireland – local authorities",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "The total cost for all aspects of processing a student finance application including: mail handling, staff processing time, customer advice, subsequent payment (up to 9 per applicant per annum), identity assurance, data sharing with higher education institutions and UCAS. The transactional costs quoted are approximate and subject to refinement.",
   "modules": [
     {

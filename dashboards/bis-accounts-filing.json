@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "All limited companies and limited liability partnerships must file their annual accounts so they're publicly available.",
   "title": "Company accounts filed",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Companies House"
   },
@@ -20,8 +17,8 @@
       "url": "https://www.gov.uk/file-your-company-accounts-and-tax-return"
     }
   },
-  "customer-type": "Business",
-  "business-model": "Fees and charges",
+  "customer-type": "businesses",
+  "business-model": "fees",
   "costs": "Filing an annual return incurs a fee which covers registration costs, accounts filing and all other document filing for limited liability companies, where these services do not have separate fees. <br>The published cost per transaction is a cost per transaction for these product groups, and the overall cost is heavily influenced by the level of electronic take up per transaction type.",
   "modules": [
     {

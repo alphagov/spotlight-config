@@ -6,14 +6,11 @@
   "strapline": "Dashboard",
   "title": "Document legalisation payments",
   "description": "Figures for payments processed on GOV.UK to the Foreign & Commonwealth Office (FCO) to get a UK public document 'legalised'.",
-  "department": {
-    "title": "Foreign and Commonwealth Office",
-    "abbr": "FCO"
-  },
+  "department": "fco",
   "relatedPages": {
     "transaction": {
       "title": "Pay to get documents legalised by post",
-      "url" : "https://www.gov.uk/pay-legalisation-post"
+      "url": "https://www.gov.uk/pay-legalisation-post"
     }
   },
   "description-extra": "Legalisation means a signature, seal or stamp made by a UK public official on the document is confirmed as genuine by the UK government.",
@@ -26,11 +23,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-apply-for-legalisation-apostille-certificate", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-apply-for-legalisation-apostille-certificate",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "number_of_transactions",
-      "format": { "type": "number", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "number",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "total-cost",
@@ -40,11 +44,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-apply-for-legalisation-apostille-certificate", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-apply-for-legalisation-apostille-certificate",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "total_cost",
-      "format": { "type": "currency", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "currency",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "cost-per-transaction",
@@ -54,11 +65,17 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-apply-for-legalisation-apostille-certificate", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-apply-for-legalisation-apostille-certificate",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "cost_per_transaction",
-      "format": { "type": "currency", "pence": true }
+      "format": {
+        "type": "currency",
+        "pence": true
+      }
     },
     {
       "slug": "live-service-usage",
@@ -127,9 +144,21 @@
       "data-type": "journey",
       "axes": {
         "y": [
-          {"journeyId": "pay-legalisation-post:start", "label": "Start", "format": "integer"},
-          {"journeyId": "pay-legalisation-post:confirm", "label": "Confirm", "format": "integer"},
-          {"journeyId": "pay-legalisation-post:done", "label": "Done", "format": "integer"}
+          {
+            "journeyId": "pay-legalisation-post:start",
+            "label": "Start",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-legalisation-post:confirm",
+            "label": "Confirm",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-legalisation-post:done",
+            "label": "Done",
+            "format": "integer"
+          }
         ]
       }
     },

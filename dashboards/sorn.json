@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "<abbr title='Statutory Off Road Notification'>SORN</abbr> is a service within <a href='vehicle-licensing'>vehicle licensing</a>, which also covers <a href='tax-disc'>tax disc</a>.",
   "title": "SORN (Statutory Off Road Notification) applications",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "DVLA"
   },
@@ -21,8 +18,8 @@
     "improve-dashboard-message": true
   },
   "description-extra": "This transactional service is for declaring that your vehicle is not being driven on the roads – a Statutory Off Road Notification. <abbr title='Statutory Off Road Notification'>SORN</abbr>s must be made for a registered vehicle that is not being used on the road, and which has been taxed since 31 January 1998.",
-  "customer-type": "Individuals",
-  "business-model": "Department budget",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",
@@ -32,11 +29,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-request-statutory-off-road-notice-sorn",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "number_of_transactions",
-      "format": { "type": "number", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "number",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "total-cost",
@@ -46,11 +50,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-request-statutory-off-road-notice-sorn",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "total_cost",
-      "format": { "type": "currency", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "currency",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "cost-per-transaction",
@@ -60,11 +71,17 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-request-statutory-off-road-notice-sorn",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "cost_per_transaction",
-      "format": { "type": "currency", "pence": true }
+      "format": {
+        "type": "currency",
+        "pence": true
+      }
     },
     {
       "slug": "live-service-usage",
@@ -105,7 +122,9 @@
       "value-attribute": "volume:sum",
       "show-line-labels": true,
       "use_stack": true,
-      "filter-by": ["service:sorn"],
+      "filter-by": [
+        "service:sorn"
+      ],
       "info": [
         "Data source: DVLA database",
         "Shows the monthly number of SORNs received by the DVLA, broken into <span class='group0'>digital</span>, <span class='group1'>Post Office</span> and <span class='group2'>DVLA centre</span> applications",
@@ -163,7 +182,10 @@
       "query-params": {
         "filter_by": "type:sorn",
         "group_by": "reason",
-        "collect": ["count:sum", "description:set"],
+        "collect": [
+          "count:sum",
+          "description:set"
+        ],
         "period": "week",
         "duration": 1
       },

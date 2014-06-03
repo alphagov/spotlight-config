@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Applications for Disclosure and Barring Service (DBS) checks, which are needed for certain jobs like those involving working with children or vulnerable adults.",
   "title": "Enhanced criminal records checks",
-  "department": {
-    "title": "Home Office",
-    "abbr": "Home Office"
-  },
+  "department": "home-office",
   "agency": {
     "title": "Disclosure and Barring Service",
     "abbr": "DBS"
@@ -22,8 +19,8 @@
     }
   },
   "description-extra": "DBS checks have replaced Criminal Records Bureau (CRB) checks. The DBS checks against spent and unspent convictions, cautions, reprimands and final warnings. It also checks against approved local police records and the DBS barred lists.",
-  "customer-type": "Individuals",
-  "business-model": "Fees and charges",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "costs": "Cost of processing a paid DBS check application is based on 21% of the application figure shown above being free of charge. Used for cost recovery purposes. (As stated in annual accounts note 22). DBS is not yet able to separate cost of paper and digital application.",
   "other-notes": "DBS was formed from the former Criminal Records Bureau (CRB) and the Independent Safeguarding Authority (ISA) in December 2012.<br>The start point of all data periods shown for this service is December 2012.",
   "modules": [

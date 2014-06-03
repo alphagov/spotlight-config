@@ -6,18 +6,15 @@
   "strapline": "Dashboard",
   "title": "Document legalisation (premium) payments",
   "description": "Figures for payments processed on GOV.UK to the Foreign & Commonwealth Office (FCO) to use the premium service to get a UK public document 'legalised'.",
-  "department": {
-    "title": "Foreign and Commonwealth Office",
-    "abbr": "FCO"
-  },
+  "department": "fco",
   "relatedPages": {
     "transaction": {
       "title": "Pay to legalise documents using the premium service",
-      "url" : "https://www.gov.uk/legalisation-premium-service"
+      "url": "https://www.gov.uk/legalisation-premium-service"
     }
   },
-  "customer-type": "Businesses",
-  "business-model": "Service users",
+  "customer-type": "businesses",
+  "business-model": "fees",
   "description-extra": "Legalisation means a signature, seal or stamp made by a UK public official on the document is confirmed as genuine by the UK government. This premium service is only available for registered businesses.",
   "modules": [
     {
@@ -87,9 +84,21 @@
       "data-type": "journey",
       "axes": {
         "y": [
-          {"journeyId": "pay-legalisation-drop-off:start", "label": "Start", "format": "integer"},
-          {"journeyId": "pay-legalisation-drop-off:confirm", "label": "Confirm", "format": "integer"},
-          {"journeyId": "pay-legalisation-drop-off:done", "label": "Done", "format": "integer"}
+          {
+            "journeyId": "pay-legalisation-drop-off:start",
+            "label": "Start",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-legalisation-drop-off:confirm",
+            "label": "Confirm",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-legalisation-drop-off:done",
+            "label": "Done",
+            "format": "integer"
+          }
         ]
       }
     },

@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "The national online recruitment system for apprenticeships in England.",
   "title": "Apprenticeships: applications for vacancies",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Skills Funding Agency"
   },
@@ -21,8 +18,8 @@
     }
   },
   "description-extra": "Users aged 16 or above can apply for apprenticeship vacancies.",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "The cost also covers the Apprenticeship vacancies: applications service, as the costs can't currently be separated.",
   "modules": [
     {

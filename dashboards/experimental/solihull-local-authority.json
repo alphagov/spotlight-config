@@ -5,9 +5,7 @@
   "published": false,
   "strapline": "Dashboard",
   "title": "Solihull missed waste collections",
-  "department": {
-    "title": "Solihull Local Authority"
-  },
+  "department": "smbc",
   "relatedPages": {
     "transaction": {
       "title": "Report a missed collection",
@@ -21,8 +19,8 @@
     ]
   },
   "description": "Solihull Council provides an online service for residents to report missed waste collections.",
-  "customer-type": "Individuals",
-  "business-model": "Department budget",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "volumetrics",

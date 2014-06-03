@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Notification service for hauliers transporting abnormal loads on roads in England.",
   "title": "Electronic Service Delivery for Abnormal Loads (ESDAL): notifications",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "Highways Agency",
     "abbr": "HA"
@@ -22,8 +19,8 @@
     }
   },
   "description-extra": "Police, road and bridge authorities manage these notifications using the Electronic Service Delivery for Abnormal Loads (ESDAL).",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "Transactional cost data is not currently available.",
   "modules": [
     {

@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "title": "View driving record",
   "description": "Find out which vehicles you can drive, penalty points and when your licence expires.",
-  "department": {
-     "title": "Department for Transport",
-     "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "Driver and Vehicle Licensing Agency",
     "abbr": "DVLA"
@@ -17,11 +14,11 @@
   "relatedPages": {
     "transaction": {
       "title": "View your driving licence information",
-      "url" : "https://www.gov.uk/view-driving-licence"
+      "url": "https://www.gov.uk/view-driving-licence"
     }
   },
   "modules": [
-      {
+    {
       "slug": "live-service-usage",
       "module-type": "realtime",
       "title": "Live service usage",
@@ -53,7 +50,10 @@
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": "dateRange"
         },
         "y": [
@@ -96,7 +96,10 @@
           "axes": {
             "x": {
               "label": "Date",
-              "key": ["_start_at", "_end_at"],
+              "key": [
+                "_start_at",
+                "_end_at"
+              ],
               "format": "dateRange"
             },
             "y": [
@@ -138,7 +141,10 @@
           "axes": {
             "x": {
               "label": "Date",
-              "key": ["_start_at", "_end_at"],
+              "key": [
+                "_start_at",
+                "_end_at"
+              ],
               "format": "dateRange"
             },
             "y": [
@@ -174,7 +180,10 @@
           "axes": {
             "x": {
               "label": "Date",
-              "key": ["_start_at", "_end_at"],
+              "key": [
+                "_start_at",
+                "_end_at"
+              ],
               "format": "dateRange"
             },
             "y": [

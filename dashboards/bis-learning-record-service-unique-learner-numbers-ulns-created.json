@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "The Learning Records Service is a register of learners which education providers use to create or collect a unique learner number (ULN) for anyone over the age of 14 in UK education and training.",
   "title": "Learning Record Service: unique learner numbers (ULNs) created",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Skills Funding Agency"
   },
@@ -21,8 +18,8 @@
     }
   },
   "description-extra": "The transactions counted here include the total number of ULNs created, which consists of batch uploads and individually created ULNs.",
-  "customer-type": "Business",
-  "business-model": "Taxpayers",
+  "customer-type": "businesses",
+  "business-model": "tax",
   "costs": "The Skills Funding Agency can't currently give a breakdown of batch uploads and individual manually created ULNs but are looking at how they can provide data on costs.",
   "modules": [
     {

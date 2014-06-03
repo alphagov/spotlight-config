@@ -5,10 +5,7 @@
   "published": true,
   "strapline": "Dashboard",
   "title": "Vehicle licensing",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "tagline": "Vehicle licensing covers <a href='tax-disc'>tax disc</a> relicensing and <a href='sorn'><abbr title='Statutory Off Road Notification'>SORN</abbr> (Statutory Off Road Notification)</a>, two services provided by <abbr title='Driver and Vehicle Licensing Agency'>DVLA</abbr>. Does not include first registrations.",
   "modules": [
     {
@@ -30,8 +27,18 @@
       "line-label-links": true,
       "axes": {
         "y": [
-           { "categoryId": "tax-disc", "label": "Tax disc", "href": "/performance/tax-disc", "format": "integer" },
-           { "categoryId": "sorn", "label": "SORN", "href": "/performance/sorn", "format": "integer" }
+          {
+            "categoryId": "tax-disc",
+            "label": "Tax disc",
+            "href": "/performance/tax-disc",
+            "format": "integer"
+          },
+          {
+            "categoryId": "sorn",
+            "label": "SORN",
+            "href": "/performance/sorn",
+            "format": "integer"
+          }
         ]
       }
     },
@@ -56,9 +63,21 @@
       ],
       "axes": {
         "y": [
-           { "categoryId": "fully-digital", "label": "Digital and automated phone", "format": "integer" },
-           { "categoryId": "assisted-digital", "label": "Post Office", "format": "integer" },
-           { "categoryId": "manual", "label": "DVLA centre", "format": "integer" }
+          {
+            "categoryId": "fully-digital",
+            "label": "Digital and automated phone",
+            "format": "integer"
+          },
+          {
+            "categoryId": "assisted-digital",
+            "label": "Post Office",
+            "format": "integer"
+          },
+          {
+            "categoryId": "manual",
+            "label": "DVLA centre",
+            "format": "integer"
+          }
         ]
       }
     }

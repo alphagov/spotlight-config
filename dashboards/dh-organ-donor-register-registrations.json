@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Registrations by people wishing to donate their organs after they die.",
   "title": "Organ donor registrations",
-  "department": {
-    "title": "Department of Health",
-    "abbr": "DH"
-  },
+  "department": "dh",
   "agency": {
     "title": "NHS Blood and Transplant",
     "abbr": "NHSBT"
@@ -21,8 +18,8 @@
       "url": "http://www.organdonation.nhs.uk/"
     }
   },
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",

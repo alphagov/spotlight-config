@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Claimants normally have to attend a Jobcentre every 2 weeks to 'sign on' so they keep getting Jobseeker's Allowance (JSA) or National Insurance (NI) contribution credits.",
   "title": "Jobsearch reviews (signing on)",
-  "department": {
-    "title": "Department for Work and Pensions",
-    "abbr": "DWP"
-  },
+  "department": "dwp",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {
@@ -18,8 +15,8 @@
     }
   },
   "description-extra": "This process is designed to make sure claimants have been looking for work by reviewing their jobsearch activity.",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "Costs cover arranging reviews, talking with claimants about what they have done to look for work, identifying any additional support needed, referring to vacancies, referring to advisers, and maintaining the individual's jobsearch record. The costs exclude any action arising during the review that relates to benefit, like taking signatures or a change in circumstances; these are covered under 'JSA: claims maintained'.<br>The costs are for the financial year 2012 to 2013. They are aggregated and averaged to give a cost per intervention and this is presented on a fully absorbed basis but excluding investment (change) costs.",
   "other-notes": "The number of transactions given is the annual number of jobsearch reviews undertaken.<br>Not all reviews are for people claiming JSA. Jobsearch reviews are also provided for people attending in support of their claim for NI credits of contributions only.",
   "modules": [

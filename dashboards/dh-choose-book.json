@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Bookings, changes and cancellations by patients for their first outpatient appointment in a hospital or clinic.",
   "title": "Choose and Book",
-  "department": {
-    "title": "Department of Health",
-    "abbr": "DH"
-  },
+  "department": "dh",
   "agency": {
     "title": "NHS England"
   },
@@ -21,8 +18,8 @@
     }
   },
   "description-extra": "Patients use Choose and Book, a national electronic referral service, to select the place, date and time of their appointment.",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",

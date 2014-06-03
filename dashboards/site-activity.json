@@ -5,10 +5,7 @@
   "published": true,
   "strapline": "Performance",
   "title": "Activity on GOV.UK",
-  "department": {
-    "title": "Cabinet Office",
-    "abbr": "CO"
-  },
+  "department": "co",
   "tagline": "Web traffic on <a href=\"https://www.gov.uk\">our site</a>, based on data from Google Analytics.",
   "modules": [
     {
@@ -37,11 +34,16 @@
       "value-attribute": "visitors:sum",
       "show-line-labels": true,
       "use_stack": false,
-      "info": [ "Data source: Google Analytics" ],
+      "info": [
+        "Data source: Google Analytics"
+      ],
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "D MMM YYYY"
@@ -83,7 +85,9 @@
         "Data source: Google Analytics",
         "The content on GOV.UK with the most pageviews in the past 7 days."
       ],
-      "classes": ["cols2"],
+      "classes": [
+        "cols2"
+      ],
       "data-group": "govuk",
       "data-type": "most_viewed",
       "query-params": {
@@ -104,7 +108,9 @@
         "Based on percentage increase between total pageviews in past 7 days and total pageviews in previous 7 days. Low pageviews in either period are rounded up to a set threshold.",
         "Excludes search results, help pages, the Service Design Manual, the Performance Platform, policies, and transformation projects."
       ],
-      "classes": ["cols2"],
+      "classes": [
+        "cols2"
+      ],
       "data-group": "govuk",
       "data-type": "trending",
       "query-params": {
@@ -124,7 +130,9 @@
         "Data source: Google Analytics",
         "The policies on GOV.UK with the most pageviews in the past 7 days."
       ],
-      "classes": ["cols2"],
+      "classes": [
+        "cols2"
+      ],
       "data-group": "govuk",
       "data-type": "most_viewed_policies",
       "query-params": {
@@ -144,7 +152,9 @@
         "Data source: Google Analytics",
         "The press releases and news on GOV.UK with the most pageviews in the past 7 days."
       ],
-      "classes": ["cols2"],
+      "classes": [
+        "cols2"
+      ],
       "data-group": "govuk",
       "data-type": "most_viewed_news",
       "query-params": {
@@ -177,7 +187,10 @@
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "D MMM YYYY"

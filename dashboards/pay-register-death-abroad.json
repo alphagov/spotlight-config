@@ -6,18 +6,15 @@
   "strapline": "Dashboard",
   "title": "Register a death abroad: payments",
   "description": "Figures for payments processed on GOV.UK in the UK to the Foreign & Commonwealth Office (FCO) if you register the death of a British national abroad.",
-  "department": {
-    "title": "Foreign and Commonwealth Office",
-    "abbr": "FCO"
-  },
+  "department": "fco",
   "relatedPages": {
     "transaction": {
-        "title": "Register a death abroad",
-        "url": "https://www.gov.uk/register-a-death"
+      "title": "Register a death abroad",
+      "url": "https://www.gov.uk/register-a-death"
     }
   },
-  "customer-type": "Individuals",
-  "business-model": "Department budget",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",
@@ -27,11 +24,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-registering-a-death-abroad", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-registering-a-death-abroad",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "number_of_transactions",
-      "format": { "type": "number", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "number",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "total-cost",
@@ -41,11 +45,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-registering-a-death-abroad", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-registering-a-death-abroad",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "total_cost",
-      "format": { "type": "currency", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "currency",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "cost-per-transaction",
@@ -55,11 +66,17 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:fco-registering-a-death-abroad", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:fco-registering-a-death-abroad",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "cost_per_transaction",
-      "format": { "type": "currency", "pence": true }
+      "format": {
+        "type": "currency",
+        "pence": true
+      }
     },
     {
       "slug": "live-service-usage",
@@ -128,9 +145,21 @@
       "data-type": "journey",
       "axes": {
         "y": [
-          {"journeyId": "pay-register-death-abroad:start", "label": "Start", "format": "integer"},
-          {"journeyId": "pay-register-death-abroad:confirm", "label": "Confirm", "format": "integer"},
-          {"journeyId": "pay-register-death-abroad:done", "label": "Done", "format": "integer"}
+          {
+            "journeyId": "pay-register-death-abroad:start",
+            "label": "Start",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-register-death-abroad:confirm",
+            "label": "Confirm",
+            "format": "integer"
+          },
+          {
+            "journeyId": "pay-register-death-abroad:done",
+            "label": "Done",
+            "format": "integer"
+          }
         ]
       }
     },

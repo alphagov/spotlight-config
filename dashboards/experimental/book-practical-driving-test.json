@@ -6,22 +6,19 @@
   "strapline": "Dashboard",
   "title": "Book a practical driving test (public users)",
   "description": "Figures for the service for the public to <strong>book a practical driving test</strong>. Figures include applications made via digital, phone and postal channels.<br><br> More performance information for the practical driving test can be found <a href='/performance/practical-driving-test' rel='external'>here</a>",
-  "department": {
-     "title": "Department for Transport",
-     "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
-     "title": "Driver and Vehicle Standards Agency",
-     "abbr": "DVSA"
+    "title": "Driver and Vehicle Standards Agency",
+    "abbr": "DVSA"
   },
   "relatedPages": {
     "transaction": {
       "title": "Book your official practical driving or riding test",
-      "url" : "https://www.gov.uk/book-practical-driving-test"
+      "url": "https://www.gov.uk/book-practical-driving-test"
     }
   },
-  "customer-type": "Citizen",
-  "business-model": "Cost recovery",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "modules": [
     {
       "slug": "transactions-per-year",
@@ -106,7 +103,10 @@
       "description": "",
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
-      "filter-by": ["sector:public","action:book"],
+      "filter-by": [
+        "sector:public",
+        "action:book"
+      ],
       "info": [
         "Data source: Driver and Vehicle Standards Agency",
         "Digital take-up measures the percentage of completed applications that are made through a digital channel versus non-digital channels."
@@ -124,7 +124,10 @@
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
       "category": "channel",
-      "filter-by": ["sector:public","action:book"],
+      "filter-by": [
+        "sector:public",
+        "action:book"
+      ],
       "period": "week",
       "axis-period": "week",
       "value-attribute": "count:sum",
@@ -163,7 +166,10 @@
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
       "category": "channel",
-      "filter-by": ["sector:public","action:book"],
+      "filter-by": [
+        "sector:public",
+        "action:book"
+      ],
       "period": "week",
       "axis-period": "month",
       "start-at": "2013-03-04T00:00:00",
@@ -203,7 +209,9 @@
       "description": "",
       "data-group": "driving-test-practical-public",
       "data-type": "journey",
-      "filter-by": ["eventCategory:pp-book-practical-driving-test-public"],
+      "filter-by": [
+        "eventCategory:pp-book-practical-driving-test-public"
+      ],
       "info": [
         "Data source: Google Analytics",
         "<a href='/service-manual/measurement/completion-rate' rel='external'>Completion rate</a> measures the proportion of people who started a a booking and were able to complete it.",
@@ -225,18 +233,52 @@
       ],
       "data-group": "driving-test-practical-public",
       "data-type": "journey",
-      "filter-by": ["eventCategory:pp-book-practical-driving-test-public"],
+      "filter-by": [
+        "eventCategory:pp-book-practical-driving-test-public"
+      ],
       "matching-attribute": "eventAction",
       "axes": {
         "y": [
-          {"journeyId": "choose-type-of-test", "label": "Choose type of test", "format": "integer"},
-          {"journeyId": "enter-licence-details", "label": "Enter license details", "format": "integer"},
-          {"journeyId": "choose-test-centre", "label": "Choose test centre", "format": "integer"},
-          {"journeyId": "choose-date-and-time", "label": "Choose date and time", "format": "integer"},
-          {"journeyId": "enter-your-details", "label": "Enter your details", "format": "integer"},
-          {"journeyId": "enter-payment-details", "label": "Enter payment details", "format": "integer"},
-          {"journeyId": "confirm-all-details", "label": "Confirm all details", "format": "integer"},
-          {"journeyId": "booking-complete", "label": "Booking complete", "format": "integer"}
+          {
+            "journeyId": "choose-type-of-test",
+            "label": "Choose type of test",
+            "format": "integer"
+          },
+          {
+            "journeyId": "enter-licence-details",
+            "label": "Enter license details",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-test-centre",
+            "label": "Choose test centre",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-date-and-time",
+            "label": "Choose date and time",
+            "format": "integer"
+          },
+          {
+            "journeyId": "enter-your-details",
+            "label": "Enter your details",
+            "format": "integer"
+          },
+          {
+            "journeyId": "enter-payment-details",
+            "label": "Enter payment details",
+            "format": "integer"
+          },
+          {
+            "journeyId": "confirm-all-details",
+            "label": "Confirm all details",
+            "format": "integer"
+          },
+          {
+            "journeyId": "booking-complete",
+            "label": "Booking complete",
+            "format": "integer"
+          }
         ]
       }
     },
@@ -248,9 +290,14 @@
       "data-group": "driving-test-practical-public",
       "data-type": "journey-help",
       "query-params": {
-        "filter_by": ["eventCategory:pp-book-practical-driving-test-public","eventType:help"],
+        "filter_by": [
+          "eventCategory:pp-book-practical-driving-test-public",
+          "eventType:help"
+        ],
         "group_by": "eventDetail",
-        "collect": ["uniqueEvents:sum"],
+        "collect": [
+          "uniqueEvents:sum"
+        ],
         "period": "week",
         "duration": 1
       },
@@ -260,7 +307,9 @@
           "key": "eventDetail",
           "format": {
             "type": "sentence",
-            "uppercase": ["dvsa"]
+            "uppercase": [
+              "dvsa"
+            ]
           }
         },
         "y": [

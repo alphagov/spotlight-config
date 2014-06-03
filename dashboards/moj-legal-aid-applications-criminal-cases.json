@@ -6,17 +6,14 @@
   "strapline": "Dashboard",
   "description": "Legal aid help for people accused of a criminal offence.",
   "title": "Legal aid applications: criminal cases",
-  "department": {
-    "title": "Ministry of Justice",
-    "abbr": "MoJ"
-  },
+  "department": "moj",
   "agency": {
     "title": "Legal Aid Agency"
   },
   "relatedPages": {
     "improve-dashboard-message": true
   },
-  "customer-type": "Individuals",
+  "customer-type": "individuals",
   "modules": [
     {
       "slug": "transactions-per-year",

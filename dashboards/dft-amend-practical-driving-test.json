@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Changes to the date or test centre for practical driving or riding tests.",
   "title": "Practical driving test: changes to bookings",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "Driving Standards Agency",
     "abbr": "DSA"
@@ -21,8 +18,8 @@
       "url": "https://www.gov.uk/change-date-practical-driving-test"
     }
   },
-  "customer-type": "Individuals",
-  "business-model": "Fees and charges",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "modules": [
     {
       "slug": "transactions-per-year",
