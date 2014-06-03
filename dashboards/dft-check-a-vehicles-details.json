@@ -7,10 +7,7 @@
   "description": "Requests for a vehicle's tax details from police, trading standards, insurance and congestion charging officials.",
   "title": "Vehicle tax: checks by third-parties",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true
   },

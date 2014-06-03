@@ -7,9 +7,7 @@
   "description": "This service is provided by the DVLA to relicense vehicles that are kept on public roads.",
   "title": "Tax disc renewals",
   "department": "dft",
-  "agency": {
-    "title": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "transaction": {
       "title": "Renew a tax disc",

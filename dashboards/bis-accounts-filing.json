@@ -7,9 +7,7 @@
   "description": "All limited companies and limited liability partnerships must file their annual accounts so they're publicly available.",
   "title": "Company accounts filed",
   "department": "bis",
-  "agency": {
-    "title": "Companies House"
-  },
+  "agency": "companies-house",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

@@ -7,13 +7,9 @@
     "title": "Department for Business, Innovation and Skills",
     "abbr": "BIS"
   },
-  "dh": {
-    "title": "Department of Health",
-    "abbr": "DH"
-  },
-  "moj": {
-    "title": "Ministry of Justice",
-    "abbr": "MoJ"
+  "dwp": {
+    "title": "Department for Work and Pensions",
+    "abbr": "DWP"
   },
   "co": {
     "title": "Cabinet Office",
@@ -31,20 +27,25 @@
     "title": "Department for Transport",
     "abbr": "DfT"
   },
-  "dwp": {
-    "title": "Department for Work and Pensions",
-    "abbr": "DWP"
+  "dh": {
+    "title": "Department of Health",
+    "abbr": "DH"
   },
-  "smbc": {
-    "title": "Solihull Local Authority",
-    "abbr": "SMBC"
+  "non-realistic-department": {
+    "title": "Non-Realistic Department"
   },
-  "dfe": {
-    "title": "Department for Education",
-    "abbr": "DfE"
+  "solihull-local-authority": {
+    "title": "Solihull Local Authority"
+  },
+  "department-for-education": {
+    "title": "Department for Education"
   },
   "hmrc": {
     "title": "HM Revenue and Customs",
     "abbr": "HMRC"
+  },
+  "moj": {
+    "title": "Ministry of Justice",
+    "abbr": "MoJ"
   }
 }

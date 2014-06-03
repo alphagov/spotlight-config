@@ -7,10 +7,7 @@
   "description": "Reporting a destroyed or seriously damaged vehicle to DVLA.",
   "title": "Destroyed or damaged vehicles reported",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true
   },

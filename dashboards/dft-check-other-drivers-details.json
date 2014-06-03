@@ -7,10 +7,7 @@
   "description": "Checking a driver's entitlement to drive by a third party with the driver's permission.",
   "title": "Driving licences: third-party checks",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true
   },

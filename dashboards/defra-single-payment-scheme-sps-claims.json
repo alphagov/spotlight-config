@@ -7,10 +7,7 @@
   "description": "Claims are submitted annually and annual payments are largely based on the hectares of land claimed.",
   "title": "Single Payment Scheme (SPS) claims",
   "department": "defra",
-  "agency": {
-    "title": "Rural Payments Agency",
-    "abbr": "RPA"
-  },
+  "agency": "rpa",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

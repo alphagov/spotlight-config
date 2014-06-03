@@ -7,10 +7,7 @@
   "description": "Successful applications for fishing rod licences.",
   "title": "Fishing rod licences: applications",
   "department": "defra",
-  "agency": {
-    "title": "Environment Agency",
-    "abbr": "EA"
-  },
+  "agency": "ea",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

@@ -7,9 +7,7 @@
   "description": "The national online recruitment system for apprenticeships in England.",
   "title": "Apprenticeships: applications for vacancies",
   "department": "bis",
-  "agency": {
-    "title": "Skills Funding Agency"
-  },
+  "agency": "skills-funding-agency",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

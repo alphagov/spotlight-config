@@ -7,10 +7,7 @@
   "description": "Making appointments with NHS Blood and Transplant (NHSBT) to donate blood.",
   "title": "Blood donation appointments",
   "department": "dh",
-  "agency": {
-    "title": "NHS Blood and Transplant",
-    "abbr": "NHSBT"
-  },
+  "agency": "nhsbt",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

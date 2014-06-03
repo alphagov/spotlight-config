@@ -7,9 +7,7 @@
   "description": "Written referrals from General Practitioners (GPs) for outpatients' first doctor's or dentist's appointments.",
   "title": "Written GP referrals to first outpatient appointment",
   "department": "dh",
-  "agency": {
-    "title": "NHS England"
-  },
+  "agency": "nhs-england",
   "relatedPages": {
     "improve-dashboard-message": true
   },

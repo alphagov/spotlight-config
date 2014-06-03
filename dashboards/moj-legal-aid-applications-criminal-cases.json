@@ -7,9 +7,7 @@
   "description": "Legal aid help for people accused of a criminal offence.",
   "title": "Legal aid applications: criminal cases",
   "department": "moj",
-  "agency": {
-    "title": "Legal Aid Agency"
-  },
+  "agency": "legal-aid-agency",
   "relatedPages": {
     "improve-dashboard-message": true
   },

@@ -5,9 +5,8 @@
   "published": false,
   "strapline": "Performance",
   "title": "Non-Realistic Data Stub",
-  "agency": {
-    "title": "Non-Realistic Agency"
-  },
+  "department": "non-realistic-department",
+  "agency": "non-realistic-agency",
   "service": {
     "title": "Non-Realistic Service"
   },

@@ -7,10 +7,7 @@
   "description": "Money claims are a way of taking legal action against a person or business who owes money, to demand repayment.",
   "title": "Money claims",
   "department": "moj",
-  "agency": {
-    "title": "HM Courts & Tribunals Service",
-    "abbr": "HMCTS"
-  },
+  "agency": "hmcts",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

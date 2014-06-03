@@ -7,10 +7,7 @@
   "description": "Fine payments in England and Wales by credit or debit card.",
   "title": "Court fine payments",
   "department": "moj",
-  "agency": {
-    "title": "HM Courts & Tribunals Service",
-    "abbr": "HMCTS"
-  },
+  "agency": "hmcts",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

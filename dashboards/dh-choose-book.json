@@ -7,9 +7,7 @@
   "description": "Bookings, changes and cancellations by patients for their first outpatient appointment in a hospital or clinic.",
   "title": "Choose and Book",
   "department": "dh",
-  "agency": {
-    "title": "NHS England"
-  },
+  "agency": "nhs-england",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

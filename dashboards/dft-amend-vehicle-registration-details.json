@@ -7,10 +7,7 @@
   "description": "Name and address changes to V5C vehicle registration certificates (log books).",
   "title": "Vehicle registration certificates: changes",
   "department": "dft",
-  "agency": {
-    "title": "Driver and Vehicle Licensing Agency",
-    "abbr": "DVLA"
-  },
+  "agency": "dvla",
   "relatedPages": {
     "improve-dashboard-message": true
   },
