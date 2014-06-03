@@ -33,17 +33,7 @@
       "required": true
     },
     "department": {
-      "type": "object",
-      "properties": {
-        "title": {
-          "type": "string",
-          "required": true
-        },
-        "abbr": {
-          "type": "string",
-          "required": true
-        }
-      }
+      "type": "string"
     },
     "relatedPages": {
       "type": "object",
