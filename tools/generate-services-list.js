@@ -7,6 +7,8 @@ var fs = require('graceful-fs'),
 var stagecraftStubDir = path.resolve(__dirname, '../dashboards'),
     stagecraftStubGlob = path.resolve(stagecraftStubDir, '**/*.json');
 
+var departments = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../departments.json')));
+
 var dashboards = [
   {
     slug: 'licensing',
@@ -18,6 +20,7 @@ var dashboards = [
 function readModule(file) {
   var defer = Q.defer();
   fs.readFile(file, 'utf8', function (err, dashboardData) {
+    var dashboard;
     if (err) {
       if (err.code === 'EISDIR') {
         defer.resolve();
@@ -30,7 +33,9 @@ function readModule(file) {
 
     dashboardData = JSON.parse(dashboardData);
     if (dashboardData['page-type'] === 'dashboard' && dashboardData['published']) {
-      dashboards.push(_.pick(dashboardData, 'slug', 'title', 'department', 'agency', 'dashboard-type', 'on-homepage'));
+      dashboard = _.pick(dashboardData, 'slug', 'title', 'department', 'agency', 'dashboard-type', 'on-homepage');
+      dashboard.department = departments[dashboard.department];
+      dashboards.push(dashboard);
     }
     defer.resolve();
 
