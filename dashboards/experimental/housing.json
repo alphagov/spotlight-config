@@ -44,14 +44,20 @@
       "value-attribute": "value:sum",
       "category": "type",
       "period": "quarter",
-      "filter-by": ["geography:United_Kingdom", "tenure:all_dwellings"],
+      "filter-by": [
+        "geography:United_Kingdom",
+        "tenure:all_dwellings"
+      ],
       "info": [
         "Source: National House-Building Council (NHBC)"
       ],
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "MMM YYYY"
@@ -83,14 +89,19 @@
       "value-attribute": "value:mean",
       "category": "geography",
       "period": "quarter",
-      "filter-by": ["key:residential_property_transactions"],
+      "filter-by": [
+        "key:residential_property_transactions"
+      ],
       "info": [
         "Source: HMRC"
       ],
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "MMM YYYY"
@@ -175,14 +186,19 @@
       "value-attribute": "value:mean",
       "category": "geography",
       "period": "quarter",
-      "filter-by": ["key:house_price_index"],
+      "filter-by": [
+        "key:house_price_index"
+      ],
       "info": [
         "Source: Office of National Statistics (ONS)"
       ],
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "MMM YYYY"

@@ -6,20 +6,17 @@
   "strapline": "Dashboard",
   "title": "Practical driving test (public users)",
   "description": "This dashboard provides additional information for the :<br><a href='/performance/book-practical-driving-test' rel='external'>Book a practical driving test</a> dashboard<br><a href='/performance/change-practical-driving-test' rel='external'>Change the date of your practical driving or riding test</a> dashboard<br><a href='/performance/change-practical-driving-test' rel='external'>Cancel your practical driving or riding test</a> dashboard",
-  "department": {
-     "title": "Department for Transport",
-     "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
-     "title": "Driver and Vehicle Standards Agency",
-     "abbr": "DVSA"
+    "title": "Driver and Vehicle Standards Agency",
+    "abbr": "DVSA"
   },
   "relatedPages": {
     "improve-dashboard-message": true,
     "other": [
       {
         "title": "Book your official practical driving or riding test",
-        "url" : "https://www.gov.uk/book-practical-driving-test"
+        "url": "https://www.gov.uk/book-practical-driving-test"
       },
       {
         "title": "Change the date of your practical driving or riding test",
@@ -29,10 +26,10 @@
         "title": "Cancel your practical test",
         "url": "https://www.gov.uk/cancel-practical-driving-test"
       }
-		]
-	},	
-  "customer-type": "Citizen",
-  "business-model": "Cost recovery",
+    ]
+  },
+  "customer-type": "individuals",
+  "business-model": "fees",
   "modules": [
     {
       "slug": "live-service-usage",
@@ -54,7 +51,9 @@
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
       "category": "action",
-      "filter-by": ["sector:public"],
+      "filter-by": [
+        "sector:public"
+      ],
       "period": "week",
       "axis-period": "week",
       "value-attribute": "count:sum",

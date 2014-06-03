@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "This service is provided by the DVLA to relicense vehicles that are kept on public roads.",
   "title": "Tax disc renewals",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "DVLA"
   },
@@ -21,8 +18,8 @@
     "improve-dashboard-message": true
   },
   "description-extra": "Tax disc is a service within <a href='vehicle-licensing'>vehicle licensing</a>, which also covers <a href='sorn'>SORN (Statutory Off Road Notification)</a>. This service does not include first vehicle registrations.",
-  "customer-type": "Individuals",
-  "business-model": "Department budget",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",
@@ -32,11 +29,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-tax-a-vehicle", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-tax-a-vehicle",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "number_of_transactions",
-      "format": { "type": "number", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "number",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "total-cost",
@@ -46,11 +50,18 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-tax-a-vehicle", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-tax-a-vehicle",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "total_cost",
-      "format": { "type": "currency", "magnitude": true, "sigfigs": 3 }
+      "format": {
+        "type": "currency",
+        "magnitude": true,
+        "sigfigs": 3
+      }
     },
     {
       "slug": "cost-per-transaction",
@@ -60,11 +71,17 @@
       "data-type": "summaries",
       "classes": "cols3",
       "query-params": {
-        "filter_by": ["service_id:dft-tax-a-vehicle", "type:seasonally-adjusted"],
+        "filter_by": [
+          "service_id:dft-tax-a-vehicle",
+          "type:seasonally-adjusted"
+        ],
         "sort_by": "_timestamp:descending"
       },
       "value-attribute": "cost_per_transaction",
-      "format": { "type": "currency", "pence": true }
+      "format": {
+        "type": "currency",
+        "pence": true
+      }
     },
     {
       "slug": "live-service-usage",
@@ -105,7 +122,9 @@
       "value-attribute": "volume:sum",
       "show-line-labels": true,
       "use_stack": true,
-      "filter-by": ["service:tax-disc"],
+      "filter-by": [
+        "service:tax-disc"
+      ],
       "info": [
         "Data source: DVLA database",
         "Shows the number of successful applications to renew a tax disc, broken into <span class='group0'>digital</span>, <span class='group1'>Post Office</span> and <span class='group2'>DVLA centre</span> applications",
@@ -115,9 +134,21 @@
       ],
       "axes": {
         "y": [
-           { "categoryId": "fully-digital", "label": "Digital and automated phone", "format": "integer" },
-           { "categoryId": "assisted-digital", "label": "Post Office", "format": "integer" },
-           { "categoryId": "manual", "label": "DVLA centre", "format": "integer" }
+          {
+            "categoryId": "fully-digital",
+            "label": "Digital and automated phone",
+            "format": "integer"
+          },
+          {
+            "categoryId": "assisted-digital",
+            "label": "Post Office",
+            "format": "integer"
+          },
+          {
+            "categoryId": "manual",
+            "label": "DVLA centre",
+            "format": "integer"
+          }
         ]
       }
     },
@@ -151,7 +182,10 @@
       "query-params": {
         "filter_by": "type:tax-disc",
         "group_by": "reason",
-        "collect": ["count:sum", "description:set"],
+        "collect": [
+          "count:sum",
+          "description:set"
+        ],
         "period": "week",
         "duration": 1
       },

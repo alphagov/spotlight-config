@@ -6,14 +6,10 @@
   "strapline": "Dashboard",
   "title": "Change a practical driving test (public users)",
   "description": "Figures for the service for the public to <strong>change, including cancel, a practical driving test</strong>. Figures include applications made via digital, phone and postal channels.<br><br> More performance information for the practical driving test can be found <a href='/performance/practical-driving-test' rel='external'>here</a>",
-  "department": {
-     "title": "Department for Transport",
-     "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
-     "title": "Driver and Vehicle Standards Agency",
-     "abbr": "DVSA"
-
+    "title": "Driver and Vehicle Standards Agency",
+    "abbr": "DVSA"
   },
   "relatedPages": {
     "improve-dashboard-message": true,
@@ -26,10 +22,10 @@
         "title": "Cancel your practical test",
         "url": "https://www.gov.uk/cancel-practical-driving-test"
       }
-		]
-	},	
-  "customer-type": "Citizen",
-  "business-model": "Cost recovery",
+    ]
+  },
+  "customer-type": "individuals",
+  "business-model": "fees",
   "modules": [
     {
       "slug": "transactions-per-year",
@@ -114,7 +110,10 @@
       "description": "",
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
-      "filter-by": ["sector:public","action:change"],
+      "filter-by": [
+        "sector:public",
+        "action:change"
+      ],
       "info": [
         "Data source: Driver and Vehicle Standards Agency",
         "Digital take-up measures the percentage of changed or cancelled bookings that are made through a digital channel versus non-digital channels."
@@ -132,7 +131,10 @@
       "data-group": "driving-test-practical",
       "data-type": "transactions-by-channel",
       "category": "channel",
-      "filter-by": ["sector:public","action:change"],
+      "filter-by": [
+        "sector:public",
+        "action:change"
+      ],
       "period": "week",
       "axis-period": "week",
       "value-attribute": "count:sum",
@@ -165,7 +167,9 @@
       "description": "",
       "data-group": "driving-test-practical-public",
       "data-type": "journey",
-      "filter-by": ["eventCategory:pp-change-practical-driving-test-public"],
+      "filter-by": [
+        "eventCategory:pp-change-practical-driving-test-public"
+      ],
       "info": [
         "Data source: Google Analytics",
         "<a href='/service-manual/measurement/completion-rate' rel='external'>Completion rate</a> measures the proportion of people who started a change or cancellation of booking and were able to complete it.",
@@ -187,20 +191,62 @@
       ],
       "data-group": "driving-test-practical-public",
       "data-type": "journey",
-      "filter-by": ["eventCategory:pp-book-practical-driving-test-public"],
+      "filter-by": [
+        "eventCategory:pp-book-practical-driving-test-public"
+      ],
       "matching-attribute": "eventAction",
       "axes": {
         "y": [
-          {"journeyId": "recaptcha-check", "label": "Recaptcha check", "format": "integer"},
-          {"journeyId": "you-went-away-and-came-back-again", "label": "You went away and came back again", "format": "integer"},
-          {"journeyId": "access-your-booking", "label": "Access your booking", "format": "integer"},
-          {"journeyId": "change-booking", "label": "Change booking", "format": "integer"},
-          {"journeyId": "choose-test-centre", "label": "Choose test centre", "format": "integer"},
-          {"journeyId": "choose-alternative-test-centre", "label": "Choose alternative test centre", "format": "integer"},
-          {"journeyId": "choose-date-and-time", "label": "Choose date and time", "format": "integer"},
-          {"journeyId": "choose-available-test", "label": "Choose available test", "format": "integer"},
-          {"journeyId": "enter-payment-details", "label": "Enter payment details", "format": "integer"},
-          {"journeyId": "confirm-changes", "label": "Confirm changes", "format": "integer"}
+          {
+            "journeyId": "recaptcha-check",
+            "label": "Recaptcha check",
+            "format": "integer"
+          },
+          {
+            "journeyId": "you-went-away-and-came-back-again",
+            "label": "You went away and came back again",
+            "format": "integer"
+          },
+          {
+            "journeyId": "access-your-booking",
+            "label": "Access your booking",
+            "format": "integer"
+          },
+          {
+            "journeyId": "change-booking",
+            "label": "Change booking",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-test-centre",
+            "label": "Choose test centre",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-alternative-test-centre",
+            "label": "Choose alternative test centre",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-date-and-time",
+            "label": "Choose date and time",
+            "format": "integer"
+          },
+          {
+            "journeyId": "choose-available-test",
+            "label": "Choose available test",
+            "format": "integer"
+          },
+          {
+            "journeyId": "enter-payment-details",
+            "label": "Enter payment details",
+            "format": "integer"
+          },
+          {
+            "journeyId": "confirm-changes",
+            "label": "Confirm changes",
+            "format": "integer"
+          }
         ]
       }
     },
@@ -212,9 +258,14 @@
       "data-group": "driving-test-practical-public",
       "data-type": "journey-help",
       "query-params": {
-        "filter_by": ["eventCategory:pp-change-practical-driving-test-public","eventType:help"],
+        "filter_by": [
+          "eventCategory:pp-change-practical-driving-test-public",
+          "eventType:help"
+        ],
         "group_by": "eventDetail",
-        "collect": ["uniqueEvents:sum"],
+        "collect": [
+          "uniqueEvents:sum"
+        ],
         "period": "week",
         "duration": 1
       },
@@ -224,7 +275,9 @@
           "key": "eventDetail",
           "format": {
             "type": "sentence",
-            "uppercase": ["dvsa"]
+            "uppercase": [
+              "dvsa"
+            ]
           }
         },
         "y": [

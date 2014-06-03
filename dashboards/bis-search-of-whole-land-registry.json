@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "A person who wishes to protect a transaction for value, such as purchase, lease or charge, may make an official search of whole with priority against either the whole or part of a registered title or pending first registration.",
   "title": "Land Registry: searches of whole register",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Land Registry",
     "abbr": "HMLR"
@@ -22,8 +19,8 @@
     }
   },
   "description-extra": "The effect of the official search with priority is to “freeze” the title to allow the application to be lodged. This protected application takes priority over other applications lodged within the priority period.",
-  "customer-type": "Business",
-  "business-model": "Fees and charges",
+  "customer-type": "businesses",
+  "business-model": "fees",
   "costs": "Applications can be received via different channels, requiring different processes and may contain multiple transactions. The published cost per transaction is therefore an average cost, including apportioned overheads, based on Land Registry’s 2011/12 published accounts.",
   "modules": [
     {

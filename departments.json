@@ -1,0 +1,50 @@
+{
+  "home-office": {
+    "title": "Home Office",
+    "abbr": "Home Office"
+  },
+  "bis": {
+    "title": "Department for Business, Innovation and Skills",
+    "abbr": "BIS"
+  },
+  "dh": {
+    "title": "Department of Health",
+    "abbr": "DH"
+  },
+  "moj": {
+    "title": "Ministry of Justice",
+    "abbr": "MoJ"
+  },
+  "co": {
+    "title": "Cabinet Office",
+    "abbr": "CO"
+  },
+  "defra": {
+    "title": "Department for Environment, Food and Rural Affairs",
+    "abbr": "Defra"
+  },
+  "fco": {
+    "title": "Foreign and Commonwealth Office",
+    "abbr": "FCO"
+  },
+  "dft": {
+    "title": "Department for Transport",
+    "abbr": "DfT"
+  },
+  "dwp": {
+    "title": "Department for Work and Pensions",
+    "abbr": "DWP"
+  },
+  "smbc": {
+    "title": "Solihull Local Authority",
+    "abbr": "SMBC"
+  },
+  "dfe": {
+    "title": "Department for Education",
+    "abbr": "DfE"
+  },
+  "hmrc": {
+    "title": "HM Revenue and Customs",
+    "abbr": "HMRC"
+  }
+}

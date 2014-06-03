@@ -9,7 +9,7 @@
   "relatedPages": {
     "transaction": {
       "title": "Driving Standards Agency",
-      "url" : "https://www.gov.uk/government/organisations/driving-standards-agency"
+      "url": "https://www.gov.uk/government/organisations/driving-standards-agency"
     },
     "other": [
       {
@@ -27,7 +27,7 @@
       "slug": "traffic-to-department-content",
       "module-type": "tab",
       "title": "Traffic to content",
-      "info":[
+      "info": [
         "Data source: Google Analytics",
         "These show visitors to content and pageviews each week for the last 9 full weeks (Monday to Sunday).",
         "‘Pageviews’ is the total number of pages viewed; repeated views of a single page are counted. Visitors may be accessing the site through multiple devices or have deleted cookies, so may be counted more than once.",
@@ -99,7 +99,7 @@
       "module-type": "tab",
       "title": "Most popular content",
       "description": "Visitors arriving over the last week.",
-      "info":[
+      "info": [
         "Data source: Google Analytics",
         "The 10 most popular pages over the last full week (Monday to Sunday).",
         "‘Pageviews’ is the total number of pages viewed; repeated views of a single page are counted. ‘Unique pageviews’ is the number of visits during which the specified page was viewed at least once.",
@@ -116,7 +116,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -151,7 +154,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -186,7 +192,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -221,7 +230,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -256,7 +268,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -291,7 +306,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -326,7 +344,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "pageTitle",
-            "collect": ["pageviews:sum", "uniquePageviews:sum"],
+            "collect": [
+              "pageviews:sum",
+              "uniquePageviews:sum"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -377,7 +398,10 @@
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "D MMM YYYY"
@@ -426,7 +450,10 @@
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": {
             "type": "dateRange",
             "format": "D MMM YYYY"
@@ -469,7 +496,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "sourceMedium",
-            "collect": ["entrances:sum", "visitBounceRate"],
+            "collect": [
+              "entrances:sum",
+              "visitBounceRate"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -507,7 +537,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "keyword",
-            "collect": ["entrances:sum", "visitBounceRate"],
+            "collect": [
+              "entrances:sum",
+              "visitBounceRate"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -545,7 +578,10 @@
           "query-params": {
             "filter_by": "department:driving-standards-agency",
             "group_by": "socialNetwork",
-            "collect": ["entrances:sum", "visitBounceRate"],
+            "collect": [
+              "entrances:sum",
+              "visitBounceRate"
+            ],
             "period": "week",
             "duration": 1
           },
@@ -619,7 +655,9 @@
       "query-params": {
         "filter_by": "organisation_acronym:dsa",
         "group_by": "url",
-        "collect": ["comment_count:sum"],
+        "collect": [
+          "comment_count:sum"
+        ],
         "period": "month",
         "duration": 1
       },

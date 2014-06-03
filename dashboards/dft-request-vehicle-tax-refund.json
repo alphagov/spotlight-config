@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Requests for Vehicle Excise Duty refunds.",
   "title": "Vehicle tax: refunds",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "Driver and Vehicle Licensing Agency",
     "abbr": "DVLA"
@@ -22,8 +19,8 @@
     }
   },
   "description-extra": "Applications using form V14 for tax disc refunds for cars, HGVs, motorcycles, and any other type of vehicle that has a tax disc.",
-  "customer-type": "Individuals",
-  "business-model": "Fees and charges",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "costs": "The volume and cost data presented here is subject to change as the method of calculation is refined. Until it has been through a formal assurance process, care should be taken in using the data to support analysis of DVLA business.",
   "modules": [
     {

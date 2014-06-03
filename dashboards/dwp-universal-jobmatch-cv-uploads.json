@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Jobseekers can create an account on Universal Jobmatch to search for full or part-time jobs in Great Britain and abroad.",
   "title": "Universal Jobmatch: CV uploads",
-  "department": {
-    "title": "Department for Work and Pensions",
-    "abbr": "DWP"
-  },
+  "department": "dwp",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {
@@ -18,8 +15,8 @@
     }
   },
   "description-extra": "The service was introduced in November 2012.",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "This process is part of Jobsearch Advice service and all the costs are already included in the unit cost of Adviser Interventions (jobsearch advice) \nThe costs for 2012 to 2013 included the costs of its predecessors, Employer Direct, National Email Team, Jobseeker Direct Online.",
   "other-notes": "The number of transactions relates to the number of CVs uploaded to the Universal Jobmatch service by jobseekers holding an account. (Note: only five CVs can be stored at any one time in a jobseeker's account, but these can be overwritten any number of times.)<br>This type of internal management information does not form part of the official statistics outputs that are released by the Department in accordance with the UK Statistics Authority’s Code of Practice.",
   "modules": [

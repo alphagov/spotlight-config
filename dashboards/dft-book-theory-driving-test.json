@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Book and pay for a theory driving test.",
   "title": "Driving theory test: bookings",
-  "department": {
-    "title": "Department for Transport",
-    "abbr": "DfT"
-  },
+  "department": "dft",
   "agency": {
     "title": "Driving Standards Agency",
     "abbr": "DSA"
@@ -21,8 +18,8 @@
       "url": "https://www.gov.uk/book-a-driving-theory-test"
     }
   },
-  "customer-type": "Individuals",
-  "business-model": "Fees and charges",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "costs": "Transactional cost data is not available separately since the booking process is part of a much wider and fully outsourced contract for the delivery of the theory test itself.",
   "modules": [
     {

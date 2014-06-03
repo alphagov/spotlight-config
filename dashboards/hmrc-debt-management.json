@@ -6,16 +6,13 @@
   "strapline": "Dashboard",
   "description": "Debt Management is the collection of outstanding amounts of unpaid taxes, overpayment of benefits and other debts.",
   "title": "Debt collection transactions",
-  "department": {
-    "title": "HM Revenue and Customs",
-    "abbr": "HMRC"
-  },
+  "department": "hmrc",
   "relatedPages": {
     "improve-dashboard-message": true
   },
   "description-extra": "The service is carried out by post, telephone or face to face. Debt Management requires a high degree of personal intervention.",
-  "customer-type": "Business",
-  "business-model": "Taxpayers",
+  "customer-type": "businesses",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "transactions-per-year",

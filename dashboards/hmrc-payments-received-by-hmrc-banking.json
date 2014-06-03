@@ -6,15 +6,12 @@
   "strapline": "Dashboard",
   "description": "Customer payments made electronically, by cheque or by cash to HMRC.",
   "title": "Payments received by HMRC",
-  "department": {
-    "title": "HM Revenue and Customs",
-    "abbr": "HMRC"
-  },
+  "department": "hmrc",
   "relatedPages": {
     "improve-dashboard-message": true
   },
-  "customer-type": "Business",
-  "business-model": "Taxpayers",
+  "customer-type": "businesses",
+  "business-model": "tax",
   "costs": "1.Transaction and cost numbers have been collected using current year outturn data. Variations from baseline 2011 to 2012 costs have been driven by changing volumes, investment and efficiencies already in train. <br>2. Unit cost data has been constructed using paybill data, with a 23% uplift for overheads. HMRC's costing framework is in development, and changes are in train to improve the accuracy of estates and IT cost apportionment. <br>3. Assumptions have been made about the balance of cost for transactional and enforcement/ other activity where business units mix both. <br>4. Additional IT investment to facilitate digital may alter the cost balance, with additional depreciation charges increasing online cost.",
   "modules": [
     {

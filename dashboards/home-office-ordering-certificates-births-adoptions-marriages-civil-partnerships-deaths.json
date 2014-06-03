@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Ordering an official copy of a certificate, including birth, adoption, marriage, civil partnership and death certificates.",
   "title": "Birth, adoption, death, marriage and civil partnership certificates ordered",
-  "department": {
-    "title": "Home Office",
-    "abbr": "Home Office"
-  },
+  "department": "home-office",
   "agency": {
     "title": "HM Passport Office",
     "abbr": "HMPO"
@@ -21,8 +18,8 @@
       "url": "https://www.gov.uk/order-copy-birth-death-marriage-certificate"
     }
   },
-  "customer-type": "Individuals",
-  "business-model": "Fees and charges",
+  "customer-type": "individuals",
+  "business-model": "fees",
   "costs": "Unit cost for producing and issuing a certificate. The average cost does not align with individual certificate fees as it is an aggregation of the differing channel/service pricing structures. This service is cost recovery funded.",
   "modules": [
     {

@@ -6,18 +6,15 @@
   "strapline": "Dashboard",
   "title": "Lasting Power of Attorney registrations",
   "description": "Figures for the service to make a <strong>lasting power of attorney (LPA)</strong> - a legal document that lets you appoint someone, known as an 'attorney', to make decisions on your behalf. Figures include applications made via both digital and paper form channels.",
-  "department": {
-     "title": "Ministry of Justice",
-     "abbr": "MoJ"
-  },
+  "department": "moj",
   "agency": {
-     "title": "Office of the Public Guardian",
-     "abbr": "OPG"
+    "title": "Office of the Public Guardian",
+    "abbr": "OPG"
   },
   "relatedPages": {
     "transaction": {
       "title": "Apply for Lasting Power of Attorney",
-      "url" : "https://www.gov.uk/power-of-attorney/overview"
+      "url": "https://www.gov.uk/power-of-attorney/overview"
     }
   },
   "modules": [
@@ -47,8 +44,16 @@
       ],
       "axes": {
         "y": [
-           { "categoryId": "non-digital", "label": "Paper form", "format": "integer" },
-           { "categoryId": "digital", "label": "Digital", "format": "integer" }
+          {
+            "categoryId": "non-digital",
+            "label": "Paper form",
+            "format": "integer"
+          },
+          {
+            "categoryId": "digital",
+            "label": "Digital",
+            "format": "integer"
+          }
         ]
       }
     },
@@ -186,7 +191,10 @@
           "key": "eventDestination",
           "format": {
             "type": "sentence",
-            "uppercase": ["lpa","bacs"]
+            "uppercase": [
+              "lpa",
+              "bacs"
+            ]
           }
         },
         "y": [

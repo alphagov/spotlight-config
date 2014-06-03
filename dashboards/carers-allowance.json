@@ -6,14 +6,11 @@
   "strapline": "Dashboard",
   "title": "Carer's Allowance applications",
   "description": "Carer's Allowance (CA) is a regular payment for carers to help look after someone with substantial caring needs - involving at least 35 hours a week.",
-  "department": {
-    "title": "Department for Work and Pensions",
-    "abbr": "DWP"
-  },
+  "department": "dwp",
   "relatedPages": {
     "transaction": {
       "title": "Apply for Carer's Allowance",
-      "url" : "https://www.gov.uk/apply-carers-allowance"
+      "url": "https://www.gov.uk/apply-carers-allowance"
     },
     "improve-dashboard-message": true,
     "other": [
@@ -27,8 +24,8 @@
       }
     ]
   },
-  "customer-type": "Individuals",
-  "business-model": "Department budget",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "modules": [
     {
       "slug": "live-service-usage",
@@ -64,7 +61,10 @@
       "axes": {
         "x": {
           "label": "Date",
-          "key": ["_start_at", "_end_at"],
+          "key": [
+            "_start_at",
+            "_end_at"
+          ],
           "format": "dateRange"
         },
         "y": [
@@ -142,10 +142,26 @@
       "matching-attribute": "eventLabel",
       "axes": {
         "y": [
-          {"journeyId": "about-you", "label": "About you", "format": "integer"},
-          {"journeyId": "care-you-provide", "label": "About the care you provide", "format": "integer"},
-          {"journeyId": "other-money", "label": "Other money", "format": "integer"},
-          {"journeyId": "consent-and-declaration", "label": "Consent and declaration", "format": "integer"}
+          {
+            "journeyId": "about-you",
+            "label": "About you",
+            "format": "integer"
+          },
+          {
+            "journeyId": "care-you-provide",
+            "label": "About the care you provide",
+            "format": "integer"
+          },
+          {
+            "journeyId": "other-money",
+            "label": "Other money",
+            "format": "integer"
+          },
+          {
+            "journeyId": "consent-and-declaration",
+            "label": "Consent and declaration",
+            "format": "integer"
+          }
         ]
       }
     },

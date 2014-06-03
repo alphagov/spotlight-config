@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Registration of all documents apart from accounts, annual returns and other fee-bearing transactions.",
   "title": "Companies House: other document filing",
-  "department": {
-    "title": "Department for Business, Innovation and Skills",
-    "abbr": "BIS"
-  },
+  "department": "bis",
   "agency": {
     "title": "Companies House"
   },
@@ -21,8 +18,8 @@
     }
   },
   "description-extra": "The many documents in this category can be filed by any limited liability entity, and fulfil a company's statutory registration obligations. Document filings can range from information provided by several thousand companies a year to a transaction filed by a company once in 10 years.",
-  "customer-type": "Business",
-  "business-model": "Fees and charges",
+  "customer-type": "businesses",
+  "business-model": "fees",
   "costs": "Filing an annual return incurs a fee which covers registration costs, accounts filing and all other document filing for limited liability companies, where these services do not have separate fees. <br>The published cost per transaction is a cost per transaction for these product groups, and the overall cost is heavily influenced by the level of electronic take up per transaction type.",
   "modules": [
     {

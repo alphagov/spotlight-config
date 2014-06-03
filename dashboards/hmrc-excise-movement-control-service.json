@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "The Excise Movement and Control System (EMCS) processes the movements of taxable goods that are duty free in the European Union.",
   "title": "Excise Movement Control Service transactions",
-  "department": {
-    "title": "HM Revenue and Customs",
-    "abbr": "HMRC"
-  },
+  "department": "hmrc",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {

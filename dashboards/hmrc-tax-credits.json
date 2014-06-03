@@ -6,10 +6,7 @@
   "strapline": "Dashboard",
   "description": "Tax Credits are payments from the government to people who are either responsible for at least 1 child or on a low income.",
   "title": "Tax Credits transactions",
-  "department": {
-    "title": "HM Revenue and Customs",
-    "abbr": "HMRC"
-  },
+  "department": "hmrc",
   "relatedPages": {
     "improve-dashboard-message": true,
     "transaction": {
@@ -18,8 +15,8 @@
     }
   },
   "description-extra": "Universal Credit will eventually replace Tax Credits.",
-  "customer-type": "Individuals",
-  "business-model": "Taxpayers",
+  "customer-type": "individuals",
+  "business-model": "tax",
   "costs": "Costs data has been excluded as the service will be incorporated in Universal Credit.",
   "other-notes": "Transactions include registrations, form submissions, customer letters, change of circumstance notifications and telephone contacts.",
   "modules": [
