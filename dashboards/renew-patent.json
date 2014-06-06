@@ -14,10 +14,6 @@
         "title": "Search for a patent"
       },
       {
-        "url": "https://www.gov.uk/intellectual-property-an-overview",
-        "title": "Protect your intellectual property"
-      },
-      {
         "url": "https://www.gov.uk/apply-for-a-patent",
         "title": "Apply for a patent online"
       }
@@ -28,7 +24,7 @@
   "description": "Renew and pay for your GB or European patent online - when renewal is due, fees, renew by post or phone instead",
   "customer-type": "businesses",
   "business-model": "fees",
-  "description-extra": "",
+  "description-extra": "Some notes! YOLO",
   "department": "bis",
   "agency": "",
   "modules": [
