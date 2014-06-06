@@ -1,0 +1,127 @@
+{
+  "published": false,
+  "page-type": "dashboard",
+  "dashboard-type": "transaction",
+  "strapline": "Dashboard",
+  "relatedPages": {
+    "transaction": {
+      "url": "https://www.gov.uk/renew-patent",
+      "title": "Renew your patent"
+    },
+    "other": [
+      {
+        "url": "https://www.gov.uk/search-for-patent",
+        "title": "Search for a patent"
+      },
+      {
+        "url": "https://www.gov.uk/intellectual-property-an-overview",
+        "title": "Protect your intellectual property"
+      },
+      {
+        "url": "https://www.gov.uk/apply-for-a-patent",
+        "title": "Apply for a patent online"
+      }
+    ]
+  },
+  "slug": "renew-patent",
+  "title": "Renew your patent",
+  "description": "Renew and pay for your GB or European patent online - when renewal is due, fees, renew by post or phone instead",
+  "customer-type": "businesses",
+  "business-model": "fees",
+  "description-extra": "",
+  "department": "bis",
+  "agency": "",
+  "modules": [
+    {
+      "slug": "transactions-per-year",
+      "module-type": "kpi",
+      "title": "Transactions per year",
+      "data-group": "transactional-services",
+      "data-type": "summaries",
+      "classes": "cols3",
+      "query-params": {
+        "filter_by": [
+          "service_id:bis-payment-of-patent-renewal-fee-f12",
+          "type:seasonally-adjusted"
+        ],
+        "sort_by": "_timestamp:descending"
+      },
+      "value-attribute": "number_of_transactions",
+      "format": {
+        "type": "number",
+        "magnitude": true,
+        "sigfigs": 3
+      },
+      "disabled": false
+    },
+    {
+      "slug": "total-cost",
+      "module-type": "kpi",
+      "title": "Total cost",
+      "data-group": "transactional-services",
+      "data-type": "summaries",
+      "classes": "cols3",
+      "query-params": {
+        "filter_by": [
+          "service_id:bis-payment-of-patent-renewal-fee-f12",
+          "type:seasonally-adjusted"
+        ],
+        "sort_by": "_timestamp:descending"
+      },
+      "value-attribute": "total_cost",
+      "format": {
+        "type": "currency",
+        "magnitude": true,
+        "sigfigs": 3
+      },
+      "disabled": false
+    },
+    {
+      "slug": "cost-per-transaction",
+      "module-type": "kpi",
+      "title": "Cost per transaction",
+      "data-group": "transactional-services",
+      "data-type": "summaries",
+      "classes": "cols3",
+      "query-params": {
+        "filter_by": [
+          "service_id:bis-payment-of-patent-renewal-fee-f12",
+          "type:seasonally-adjusted"
+        ],
+        "sort_by": "_timestamp:descending"
+      },
+      "value-attribute": "cost_per_transaction",
+      "format": {
+        "type": "currency",
+        "pence": true
+      },
+      "disabled": false
+    },
+    {
+      "slug": "live-service-usage",
+      "module-type": "realtime",
+      "title": "Live service usage",
+      "description": "Live number of users on any page within the service",
+      "info": [
+        "Data source: Google Analytics",
+        "Shows the estimated number of users currently accessing the service on GOV.UK."
+      ],
+      "data-group": "renew-patent",
+      "data-type": "realtime"
+    },
+    {
+      "slug": "user-satisfaction",
+      "module-type": "user_satisfaction_graph",
+      "title": "User satisfaction",
+      "description": "Average score of satisfied responses",
+      "data-group": "renew-patent",
+      "data-type": "customer-satisfaction",
+      "info": [
+        "Data source: GOV.UK user feedback database",
+        "<a href='/service-manual/measurement/user-satisfaction' rel='external'>User satisfaction</a> is measured by surveying users at the point of transaction completion. It is measured on a five-point scale, from most satisfied to least satisfied. The mean of these responses is converted to a percentage for display purposes."
+      ],
+      "period": "day",
+      "value-attribute": "rating"
+    }
+  ]
+}
